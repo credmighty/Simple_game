@@ -1,0 +1,57 @@
+body {
+       background: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
+            }
+h1 {
+       text-align: center;
+       font-family: cursive, sans-serif;
+ }
+#play {
+       position: absolute;
+       bottom: 30%;
+       left: 36%;
+       border-radius: 30px;
+       padding: 2% 10% 2% 10%;
+       font-size: 120%;
+       font-weight: 800;
+       font-family: cursive, sans-serif;
+}
+canvas {
+       height: 95%;
+       width: 100%;
+ }
+ #game {
+       display: none;
+ }
+#up, #down {
+       position: absolute;
+       bottom: 2%;
+       padding: 2% 10%;
+       font-size: 110%;
+       font-weight: 800;
+       font-family: cursive, "Times New Roman", Sans-Serif;
+       color: #ca0966;
+       border-radius: 50px;
+}
+ #up {
+       left: 2%;
+ }
+ #down {
+       right: 2%;
+ }
+#back {
+      position: absolute;
+      left: 2%;
+      top: 1%;
+      font-family: cursive, "Times New Roman", Sans-Serif;
+}
+ #how {
+      position: absolute;
+      right: 42%;
+      top: 1%;
+      font-family: cursive, "Times New Roman", Sans-Serif;
+}
+#highScore {
+      text-align: center;
+      font-family: Sans-Serif;
+      color: #00F;
+}
